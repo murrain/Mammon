@@ -1,0 +1,47 @@
+Updated: 13.06.2012			Author: j0achim
+-------------------------------------------------------
+
+
+	     Mammon - The Prince of Greed
+
+
+
+Version: 1.0.0.11		       Date: 13.06.2012
+-------------------------------------------------------
+ * Revorked amount of targets required to trigger
+   Barbarian AOE skills.
+
+ * Barbarian use potion when low hp.
+
+ * Barbarian wait while Incapacitated.
+
+ * Barbarian wait for attack.
+
+ * Demon Hunter use potion when low hp.
+
+ * Demon Hunter wait while Incapacitated.
+
+ * Demon Hunter wait for attack.
+
+ * Monk routine added credits to Nuok whom are the author
+   of that code.
+
+ * Demon Hunter now spawn companions.
+
+ * Demon Hunter uses Evasive fire if target is closer 
+   then 10 feets.
+
+-------------------------------------------------------
+Version: 1.0.0.0		       Date: 13.06.2012
+-------------------------------------------------------
+ * Initial release.
+
+ * Derived from my updates written for Barbarian
+   routine for Belphegor.
+
+ * Mammon is a forked build of Belphegor.
+
+
+-------------------------------------------------------
+Date: 13.06.2012			Author: j0achim
+-------------------------------------------------------
