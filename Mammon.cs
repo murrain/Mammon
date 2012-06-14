@@ -31,7 +31,7 @@ namespace Mammon
 {
     public class Mammon : CombatRoutine
     {
-        private Version version = new Version(1, 0, 0, 11);
+        private Version version = new Version(1, 0, 0, 13);
 
         public Mammon()
         {

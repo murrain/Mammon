@@ -1,3 +1,4 @@
+
 #################
 ## Eclipse
 #################
@@ -5,8 +6,9 @@
 *.pydevproject
 .project
 .metadata
-bin/
-tmp/
+bin/**
+tmp/**
+tmp/**/*
 *.tmp
 *.bak
 *.swp
@@ -42,8 +44,8 @@ local.properties
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
-[Rr]elease/
+**/[Dd]ebug/
+**/[Rr]elease/
 *_i.c
 *_p.c
 *.ilk
@@ -61,10 +63,10 @@ local.properties
 *.tmp
 *.vspscc
 .builds
-*.dotCover
+**/*.dotCover
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
-#packages/
+#**/packages/ 
 
 # Visual C++ cache files
 ipch/
@@ -80,7 +82,7 @@ ipch/
 # ReSharper is a .NET coding add-in
 _ReSharper*
 
-# Installshield output folder
+# Installshield output folder 
 [Ee]xpress
 
 # DocProject is a documentation generator add-in
@@ -121,7 +123,7 @@ UpgradeLog*.XML
 ############
 
 # Windows image file caches
-Thumbs.db
+Thumbs.db 
 
 # Folder config file
 Desktop.ini

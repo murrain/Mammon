@@ -54,6 +54,8 @@ namespace Mammon.Routines
                         //Focus Skills
                         Spell.CastAOESpell(SNOPower.Monk_CycloneStrike,
                             extra => Clusters.GetClusterCount(ZetaDia.Me, CombatTargeting.Instance.LastObjects, ClusterType.Radius, 20f) >= 3),
+                        Spell.CastAOESpell(SNOPower.Monk_BlindingFlash,
+                            extra => CombatTargeting.Instance.FirstNpc.Distance <= 18f),
                         Spell.CastAOESpell(SNOPower.Monk_SevenSidedStrike,
                             extra => Clusters.GetClusterCount(ZetaDia.Me, CombatTargeting.Instance.LastObjects, ClusterType.Radius, 20f) >= 3),
 
@@ -64,8 +66,6 @@ namespace Mammon.Routines
                         Spell.CastOnUnit(SNOPower.Monk_TempestRush, 1,
                             ctx => ((DiaUnit)ctx).ACDGuid,
                             extra => CombatTargeting.Instance.FirstNpc.Distance > 20f),
-                        Spell.CastAOESpell(SNOPower.Monk_BlindingFlash,
-                            extra => Clusters.GetClusterCount(ZetaDia.Me, CombatTargeting.Instance.LastObjects, ClusterType.Radius, 20f) >= 5),
                         Spell.CastOnUnit(SNOPower.Monk_WaveOfLight, 1,
                             ctx => ((DiaUnit)ctx).ACDGuid),
 
